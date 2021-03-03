@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>roboclaw_ros2</name>
+  <version>1.0.0</version>
+  <description>ROS2 driver for BasicMicro's RoboClaw motor controller (www.BasicMicro.com).  This includes specialized nodes for differential drive and pan and tilt camera mount. 
+  </description>
+  <author email="TimCraig@Druai.com">Tim Craig</author>
+  <license>BSD</license>
+
+  <maintainer email="TimCraig@Druai.com">Tim Craig</maintainer>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>sensor_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
